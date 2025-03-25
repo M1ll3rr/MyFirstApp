@@ -1,9 +1,9 @@
-package com.example.myfirstapp
+package com.example.myfirstapp.library
 
 class Disk(
     id: Int,
     name: String,
-    val diskType: String,
+    val diskType: TypesOfDisk,
     access: Boolean = true
 ) : LibraryObject(id, name, access), HomeTakeable {
     override val typeName = "Диск"
