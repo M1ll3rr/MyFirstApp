@@ -4,7 +4,7 @@ class Newspaper(
     id: Int,
     name: String,
     val numOfPub: Int,
-    val monthOfPub: String,
+    val monthOfPub: Months,
     access: Boolean = true
 ) : LibraryObject(id, name, access), InsideReadable, Digitizable {
     override val typeName = "Газета"
