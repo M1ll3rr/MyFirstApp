@@ -34,24 +34,24 @@ fun main() {
     )
 
     val newspaperList = mutableListOf<Newspaper>(
-        Newspaper(201, "The New York Times", 12345, Months.JANUARY.ruName),
-        Newspaper(202, "The Washington Post", 67890, Months.FEBRUARY.ruName),
-        Newspaper(203, "Панорама города", 54321, Months.MARCH.ruName, false),
-        Newspaper(204, "Комсомольская прада", 98765, Months.APRIL.ruName),
-        Newspaper(205, "Телесемь", 11223, Months.MAY.ruName),
-        Newspaper(206, "The Economist", 44556, Months.JUNE.ruName)
+        Newspaper(201, "The New York Times", 12345, Months.JANUARY),
+        Newspaper(202, "The Washington Post", 67890, Months.FEBRUARY),
+        Newspaper(203, "Панорама города", 54321, Months.MARCH, false),
+        Newspaper(204, "Комсомольская прада", 98765, Months.APRIL),
+        Newspaper(205, "Телесемь", 11223, Months.MAY),
+        Newspaper(206, "The Economist", 44556, Months.JUNE)
     )
 
     val diskList = mutableListOf<Disk>(
-        Disk(301, "Вестник", TypesOfDisk.CD.name),
-        Disk(302, "Лесник", TypesOfDisk.CD.name),
-        Disk(303, "Back in Black", TypesOfDisk.CD.name, false),
-        Disk(304, "Abbey Road", TypesOfDisk.CD.name),
-        Disk(305, "Rumours", TypesOfDisk.CD.name),
-        Disk(306, "Nevermind", TypesOfDisk.CD.name),
-        Disk(307, "Матрица", TypesOfDisk.DVD.name, false),
-        Disk(308, "Начало", TypesOfDisk.DVD.name),
-        Disk(309, "Интерстеллар", TypesOfDisk.DVD.name)
+        Disk(301, "Вестник", TypesOfDisk.CD),
+        Disk(302, "Лесник", TypesOfDisk.CD),
+        Disk(303, "Back in Black", TypesOfDisk.CD, false),
+        Disk(304, "Abbey Road", TypesOfDisk.CD),
+        Disk(305, "Rumours", TypesOfDisk.CD),
+        Disk(306, "Nevermind", TypesOfDisk.CD),
+        Disk(307, "Матрица", TypesOfDisk.DVD, false),
+        Disk(308, "Начало", TypesOfDisk.DVD),
+        Disk(309, "Интерстеллар", TypesOfDisk.DVD)
     )
 
     println("Добро пожаловать в библиотеку, что вы хотите сделать?")
